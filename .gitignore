@@ -1,0 +1,28 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos y directorios Python
+*.pyc
+*.pyo
+*.pyd
+_pycache_/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de configuración de entorno
+.env
+.env.*
+
+# Archivos y directorios de logs
+*.log
+logs/
+
+# Archivos y directorios de migraciones
+*/migrations/
+*/migrations/_pycache_/
+
+# Base de datos SQLite
+db.sqlite3
